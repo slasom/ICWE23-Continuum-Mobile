@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-basement:15.0.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/Escritorio/TFG José Carlos/Proyecto/face-tracker-nearby-tfg/caches/transforms-2/files-2.1/3854d1d9e88c8ec29d869df5f9a5e4f4/jetified-play-services-basement-15.0.1/res" />
-      <root url="jar://$USER_HOME$/Escritorio/TFG José Carlos/Proyecto/face-tracker-nearby-tfg/caches/transforms-2/files-2.1/3854d1d9e88c8ec29d869df5f9a5e4f4/jetified-play-services-basement-15.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Escritorio/TFG José Carlos/Proyecto/face-tracker-nearby-tfg/caches/transforms-2/files-2.1/3854d1d9e88c8ec29d869df5f9a5e4f4/jetified-play-services-basement-15.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b437c815d105b1aa5d8e5b3a4d3183c/jetified-play-services-basement-15.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b437c815d105b1aa5d8e5b3a4d3183c/jetified-play-services-basement-15.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b437c815d105b1aa5d8e5b3a4d3183c/jetified-play-services-basement-15.0.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

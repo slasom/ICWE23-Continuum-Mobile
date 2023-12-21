@@ -1,5 +1,7 @@
 package org.openapitools.server;
 
+import static com.google.gson.internal.$Gson$Types.arrayOf;
+
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.BroadcastReceiver;
@@ -18,6 +20,14 @@ import android.widget.TextView;
 import org.openapitools.server.notification.NotificationClass;
 import org.openapitools.server.notification.NotificationDatabase;
 import android.widget.Toast;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 import org.openapitools.server.service.MQTTService;
@@ -48,8 +58,24 @@ public class MainActivity extends Activity {
 
         listView.setAdapter(adapter);
 
-        startServiceMQTT();
 
+
+      startServiceMQTT();
+
+    }
+
+    private static void writeToFile(String filePath, String content) {
+        // Crea un objeto File
+        File file = new File(filePath);
+
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
+            // Escribe el contenido en el archivo
+            writer.write(content);
+            System.out.println("Contenido escrito en el archivo correctamente.");
+        } catch (IOException e) {
+            // Manejo de excepciones en caso de error
+            e.printStackTrace();
+        }
     }
 
     private void startServiceMQTT() {
