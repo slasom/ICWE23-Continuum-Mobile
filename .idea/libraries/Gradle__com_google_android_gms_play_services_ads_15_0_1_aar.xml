@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-ads:15.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22edd60632988a2d1d0f1bf2b83ab514/jetified-play-services-ads-15.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22edd60632988a2d1d0f1bf2b83ab514/jetified-play-services-ads-15.0.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22edd60632988a2d1d0f1bf2b83ab514/jetified-play-services-ads-15.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../TFG José Carlos/Proyecto/face-tracker-nearby-tfg/caches/transforms-2/files-2.1/ff394621b000a76b5cc827df5c5808a2/jetified-play-services-ads-15.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../TFG José Carlos/Proyecto/face-tracker-nearby-tfg/caches/transforms-2/files-2.1/ff394621b000a76b5cc827df5c5808a2/jetified-play-services-ads-15.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../TFG José Carlos/Proyecto/face-tracker-nearby-tfg/caches/transforms-2/files-2.1/ff394621b000a76b5cc827df5c5808a2/jetified-play-services-ads-15.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

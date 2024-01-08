@@ -21,6 +21,8 @@ import org.openapitools.server.notification.NotificationClass;
 import org.openapitools.server.notification.NotificationDatabase;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.identifier.AdvertisingIdClient;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -60,7 +62,10 @@ public class MainActivity extends Activity {
 
 
 
-      startServiceMQTT();
+        startServiceMQTT();
+
+
+
 
     }
 

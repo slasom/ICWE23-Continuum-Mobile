@@ -190,6 +190,7 @@ public class MQTTService extends Service {
         protected AdvertisingIdClient.Info doInBackground(Void... voids) {
             AdvertisingIdClient.Info info = null;
             try {
+
                 info = AdvertisingIdClient.getAdvertisingIdInfo(getApplicationContext());
             } catch (IOException e) {
                 e.printStackTrace();
@@ -204,7 +205,7 @@ public class MQTTService extends Service {
         @Override
         protected void onPostExecute(AdvertisingIdClient.Info info) {
             mInfo = info;
-
+            Log.e("GET INFO ADS: ", String.valueOf(mInfo));
             configureMQTT();
         }
     }

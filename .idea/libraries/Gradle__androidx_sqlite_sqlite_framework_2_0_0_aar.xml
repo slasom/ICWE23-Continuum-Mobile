@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.sqlite:sqlite-framework:2.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/feea42f8df9c7bef409fffb816a5443d/sqlite-framework-2.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/feea42f8df9c7bef409fffb816a5443d/sqlite-framework-2.0.0/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../TFG José Carlos/Proyecto/face-tracker-nearby-tfg/caches/transforms-2/files-2.1/feea42f8df9c7bef409fffb816a5443d/sqlite-framework-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../TFG José Carlos/Proyecto/face-tracker-nearby-tfg/caches/transforms-2/files-2.1/feea42f8df9c7bef409fffb816a5443d/sqlite-framework-2.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.sqlite/sqlite-framework/2.0.0/2e78fe3eb424eb602f9d53eda1e5725d5a4f27a0/sqlite-framework-2.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../TFG José Carlos/Proyecto/face-tracker-nearby-tfg/caches/modules-2/files-2.1/androidx.sqlite/sqlite-framework/2.0.0/2e78fe3eb424eb602f9d53eda1e5725d5a4f27a0/sqlite-framework-2.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
